@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #2b0a3d, #111827);
+    color: white;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+h1 {
+    font-size: 45px;
+    color: #ff70b7;
+}
+
+.subtitle {
+    font-size: 20px;
+}
+
+.card {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 25px;
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.card h2 {
+    color: #ff9acb;
+}
+
+.languages button,
+.voice-btn {
+    border: none;
+    padding: 14px 20px;
+    margin: 8px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.voice-btn {
+    background: #ff4fa3;
+    color: white;
+    font-size: 18px;
+    padding: 16px 35px;
+}
+
+#output {
+    margin-top: 25px;
+    font-size: 18px;
+    color: #ffd6ea;
+}

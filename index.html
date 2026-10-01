@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sakhi AI</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🌸 Sakhi AI</h1>
+
+        <p class="subtitle">
+            Your Digital Helper
+        </p>
+
+        <div class="card">
+
+            <h2>Namaskaram Akka ❤️</h2>
+
+            <p>
+                Mee language lo maatladandi.
+                Nenu meeku help chesthanu.
+            </p>
+
+            <div class="languages">
+                <button onclick="selectLanguage('Telugu')">
+                    తెలుగు
+                </button>
+
+                <button onclick="selectLanguage('Hindi')">
+                    हिंदी
+                </button>
+
+                <button onclick="selectLanguage('Tamil')">
+                    english
+                </button>
+            </div>
+
+            <button class="voice-btn" onclick="startVoice()">
+                🎙️ Matladandi
+            </button>
+
+            <p id="output"></p>
+            <div id="applyBox"> 
+
+                <div id="documentsBox" style="display:none;">
+
+    <button onclick="startDocumentsCheck()">
+        📄 DOCUMENTS CHECK
+    </button>
+
+    <div id="documentQuestion"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body> 
+</html>
